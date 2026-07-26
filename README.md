@@ -4,6 +4,8 @@ A typed directed dependency graph with stable topological sorting, parallelizabl
 layers, dependency/dependent queries, removal, and cycle reporting.
 
 ```ts
+import { DependencyGraph } from "@lucid-softworks/dependency-graph";
+
 const graph = new DependencyGraph<string>();
 graph.addDependency("test", "build");
 graph.layers(); // [["build"], ["test"]]
