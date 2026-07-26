@@ -1,6 +1,6 @@
 {
   "name": "@lucid-softworks/dependency-graph",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A typed dependency graph with topological layers and cycle errors.",
   "keywords": [
     "dependency",
